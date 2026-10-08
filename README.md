@@ -3,7 +3,7 @@
 > Built by Rose Seby
 
 ![Hero demo](./docs/hero.gif)
-**Live:** https://github.com/rosesebyk/car-scroll-hero
+**Live:** https://rosesebyk.github.io/car-scroll-hero/
 
 ## Design Intent
 Most scroll heroes move one object. I wanted the page to feel like turning a key: the headlights wake up,
@@ -48,10 +48,15 @@ which would repaint every frame. The gauge is a rotating needle, not a stroke fi
     npm run dev
 
 ## Deploy
+This repo includes a GitHub Pages workflow. Push to `main`, then in GitHub choose
+Settings -> Pages -> Source: `GitHub Actions`.
+
+Manual deploy is also available:
+
     git init && git add . && git commit -m "feat: scroll-driven car hero"
     git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/car-scroll-hero.git
+    git remote add origin https://github.com/rosesebyk/car-scroll-hero.git
     git push -u origin main
     npm run deploy
 
-Then Settings → Pages → Deploy from branch → `gh-pages` / root.
+For the manual deploy path, choose Settings -> Pages -> Deploy from branch -> `gh-pages` / root.

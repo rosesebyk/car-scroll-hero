@@ -321,7 +321,7 @@ export default function App() {
       <div className="fixed top-[28vh] left-0 right-0 z-30 flex justify-center pointer-events-none">
         <img
           ref={movingCarRef}
-          src="car.png"
+          src={`${import.meta.env.BASE_URL}car.png`}
           alt="Car Motion Element"
           className="max-w-[80vw] md:max-w-[900px] h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.9)] transform-gpu will-change-transform"
           onError={(e) => {
