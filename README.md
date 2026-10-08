@@ -3,7 +3,7 @@
 > Built by Rose Seby
 
 ![Hero demo](./docs/hero.gif)
-**Live:** https://YOUR_USERNAME.github.io/car-scroll-hero/
+**Live:** https://github.com/rosesebyk/car-scroll-hero
 
 ## Design Intent
 Most scroll heroes move one object. I wanted the page to feel like turning a key: the headlights wake up,
